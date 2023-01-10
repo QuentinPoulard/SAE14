@@ -1,4 +1,13 @@
-P.Noa {
-    font-size: xx-large ;
+.Titre {    
+    text-align: center ;
+}
+
+img {
+    margin-top: 5%;
+    margin-left: 15% ;
+    width: 20%;
+    border: 1ch solid #ccc;
+}
+.caca {
     text-align: center ;
 }

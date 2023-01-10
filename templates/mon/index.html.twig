@@ -1,11 +1,37 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello MonController!{% endblock %}
+{% block title %}Me !{% endblock %}
 
 {% block body %}
 
-<p class="Noa"> Mes données personel </p>
+<h2 class="Titre"> <u> Mes données personel </u></h2>
+<img src={{asset('media/moisae14.jpg')}}>
+<div class="infoperso" >
+<li class="prénom">
+<p> <u> Prénom :</u>  Quentin </p>
+</li>
+<li class="nom">
+<p> <u>Nom :</u>  Poulard </p>
+</li>
+<li class="age">
+<p> <u>Née le :</u>  16/12/2004
+<li class="num">
+<p> <u>Numéro de téléphone :</u>  07.82.71.44.52 </p>
+</li>
+<li class="mail">
+<p> <u>Adresse mail :</u>  quentin01.poulard@gmail.com </p>
+</li>
+<div class="caca">
 
 
+<div class="d-grid gap-2">
+  <button class="btn btn-lg btn-primary" type="button">
+       <a class="nav-link" href="/loisir">En savoir plus </a>
+</button>  
+</div>
 
+  
+        
+
+</div>
 {% endblock %}
