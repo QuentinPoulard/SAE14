@@ -15,4 +15,20 @@ class MonController extends AbstractController
             'controller_name' => 'MonController',
         ]);
     }
+
+    #[Route('/', name: 'mon_cv')]
+    public function cvv(): Response
+    {
+        return $this->render('autrespages/cv.html.twig', [
+         
+        ]);
+    }
+
+    #[Route('/loisir', name: 'mes_loisir')]
+    public function loiisir(): Response
+    {
+        return $this->render('autrespages/loisir.html.twig', [
+         
+        ]);
+    }
 }

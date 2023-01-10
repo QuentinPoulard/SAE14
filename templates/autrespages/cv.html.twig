@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon Cv!{% endblock %}
+
+{% block body %}
+
+<p> Mon cv </p>
+
+<form>
+
+  <p>
+    <label for="n1">Quel est votre Prénom &nbsp;?</label>
+    <input type="text"id="n1" name="prenom"
+           >
+  </p>
+  <p>
+    <label for="t1">Quel est votre Nom &nbsp;?<abbr title="Ce champ est obligatoire">*</abbr></label>
+    <input type="text" id="t1" name="fruit" list="l1" required
+           pattern="[Bb]anane|[Cc]erise|[Cc]itron|[Ff]raise|[Oo]range|[Pp]omme">
+   
+  <p>
+    <label for="t2">Quelle est votre adresse électronique&nbsp;?</label>
+    <input type="email" id="t2" name="email">
+  </p>
+
+  <p>
+    <button>Soumettre</button>
+  </p>
+</form>
+
+
+{% endblock %}
