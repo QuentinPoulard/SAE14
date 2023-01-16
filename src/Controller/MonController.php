@@ -39,4 +39,12 @@ class MonController extends AbstractController
          
         ]);
     }
+
+    #[Route('/programmeC', name: 'mon_progC')]
+    public function programmeC(): Response
+    {
+        return $this->render('pageportfolio/programmationC.html.twig', [
+         
+        ]);
+    }
 }

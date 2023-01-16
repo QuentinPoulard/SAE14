@@ -4,12 +4,18 @@
 
 {% block body %}
 
- <header class="masthead" style="background-image: url('{{asset('media/fondperso.jpg/')}}')"> 
+ <header class="masthead" style="background-image: url('{{asset('media/fondindex.jpg/')}}')"> 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
-<h2 class="Titre"> <u> Qui Suis-je ? </u></h2>
+<div id="fond"> 
+      <div class="ruban">     
+        <h2> Poulard Quentin </h2>     
+      </div>     
+      <div class="ruban_gauche"></div>
+      <div class="ruban_droit"></div>
+</div>
 
 <img class="left" ; src={{asset('media/moisae14.jpg')}}>
 <div class="droite"> 
@@ -29,11 +35,12 @@
 
 <p class="age"> <u>Née le :</u>  16/12/2004 </p>
 <br><br><br>
-
+<div class="nume">
 <p class="numero"> <u>Numéro de téléphone :</u>  07.82.71.44.52 </p>
-
+</div>
+<div class="maill">
 <p class="mail"> <u>Adresse mail :</u>  quentin01.poulard@gmail.com </p>
-
+</div>
 
 
 
@@ -48,6 +55,6 @@
       <p>©Copyright 2050 par personne. Tous droits reversés.</p>
     </footer>
 
-
+<br> <br> <br> <br>
 
 {% endblock %}
