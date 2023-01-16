@@ -1,13 +1,322 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
 .Titre {    
     text-align: center ;
 }
 
-img {
-    margin-top: 5%;
-    margin-left: 15% ;
-    width: 20%;
-    border: 1ch solid #ccc;
+.prenom {
+  margin-left: 25%;
+  position: absolute;
+  font-size: 1.5em;
 }
+
+.nom {
+  left: 43%;
+  position: absolute;
+  font-size: 1.5em;
+}
+
+.age {
+  left: 60%;
+  position: absolute;
+  font-size: 1.5em;
+
+}
+
+.numero {
+  left: 25%;
+  position: absolute;
+  font-size: 1.5em;
+}
+
+.mail {
+  left: 50%;
+  position: absolute;
+  font-size: 1.5em;
+}
+
+.foot {
+  position: absolute;
+  left: 33.5%;
+  border: 5px solid;
+  border-image: linear-gradient(#003973, #E5E5BE) 10;
+  padding: 3px;
+  width: 33%;
+  margin: auto;
+}
+
+.rl {
+  width: 100%;
+}
+
+.rlcentre{
+
+  position: absolute;
+  left: 67%;
+  border: 5px solid;
+  border-image: linear-gradient(#C6FFDD, #FBD786, #f7797d) 10;
+  padding: 3px;
+  width: 33%;
+  margin: auto;
+}
+.footcentre {
+  text-align: center;
+}
+
+.amicentre {
+  display: flex;
+  float: left;
+}
+.amigos {
+  width: 33%;
+  border: 5px solid;
+  border-image: linear-gradient(#C6FFDD, #FBD786, #f7797d) 10;
+  padding: 3px;
+  position: absolute;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.navvv{
+  
+    width: 100%;
+}
+
+.masthead {
+ 
+ 
+    background-size: cover;
+}
+
 .caca {
     text-align: center ;
 }
+.clear {
+    clear: both;
+}
+img.left {
+    margin-top: 3%;
+    margin-left: 25% ;
+    width: 20%;
+    border: 1ch solid #ccc;
+    float: left;
+}
+.left {
+    float: left;
+}
+
+.droite {
+    margin-top: 8%;
+    margin-left: 52% ;
+    margin-right: 20% ;
+}
+#entète {
+    width: 100%;
+    margin-top: 4%;
+    text-align:center;
+    color: rgb(247, 243, 243);
+   
+    }
+.formation {
+    text-align: center;
+    color: rgb(40, 104, 251);
+} 
+.exppro {
+    text-align: center;
+    color: rgb(40, 104, 251); 
+}
+.contform{
+    
+    text-align: center;
+    width: 100%;   
+ 
+}
+.contexp{
+    
+    text-align: center;
+    width: 100%;   
+  
+
+}
+.contcomp{
+   
+    width: 100%;   
+  
+   
+}
+
+.bac {
+    
+    font-weight: bold;
+}
+.bacc {
+ 
+}
+
+.entretien {
+   
+    text-align: center;
+    font-weight: bold;
+}
+
+.zza {
+    
+    text-align: center;
+    margin-left: 2%;
+}
+
+.stage {
+    float: left ;
+    margin-left: 12%;
+    font-weight: bold;
+}
+
+.titrecomp{
+    text-align: center;
+    color: rgb(40, 104, 251); 
+}
+
+.informat {
+    text-align: center;
+}
+
+.compétenceinfo {
+    font-size: 1.2em;
+    margin-left: 40%;
+}
+.compinfo {
+    
+    float: left;
+}
+.ubun {
+  position: absolute;
+    left: 53%;
+}
+.bienveillant {
+    float: left;
+    margin-left: 6%;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+}
+
+body .container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(201, 34, 247, 0.766),
+    inset -5px -5px 15px rgb(17, 79, 202),
+    5px 5px 15px rgba(0, 0, 0, 0.962), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.5s;
+}
+
+body .container .card:nth-child(1) .box .content a {
+  background: #2196f3;
+}
+
+body .container .card:nth-child(2) .box .content a {
+  background: #e91e63;
+}
+
+body .container .card:nth-child(3) .box .content a {
+  background: #23c186;
+}
+
+body .container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #08090e00;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+body .container .card .box:hover {
+  transform: translateY(-50px);
+}
+
+body .container .card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(149, 119, 119, 0.03);
+}
+
+body .container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+body .container .card .box .content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+body .container .card .box .content h3 {
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+body .container .card .box .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+body .container .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+body .container .card .box .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+
+

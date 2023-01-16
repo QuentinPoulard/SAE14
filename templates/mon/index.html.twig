@@ -4,34 +4,50 @@
 
 {% block body %}
 
-<h2 class="Titre"> <u> Mes données personel </u></h2>
-<img src={{asset('media/moisae14.jpg')}}>
-<div class="infoperso" >
-<li class="prénom">
-<p> <u> Prénom :</u>  Quentin </p>
-</li>
-<li class="nom">
-<p> <u>Nom :</u>  Poulard </p>
-</li>
-<li class="age">
-<p> <u>Née le :</u>  16/12/2004
-<li class="num">
-<p> <u>Numéro de téléphone :</u>  07.82.71.44.52 </p>
-</li>
-<li class="mail">
-<p> <u>Adresse mail :</u>  quentin01.poulard@gmail.com </p>
-</li>
-<div class="caca">
+ <header class="masthead" style="background-image: url('{{asset('media/fondperso.jpg/')}}')"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+<h2 class="Titre"> <u> Qui Suis-je ? </u></h2>
+
+<img class="left" ; src={{asset('media/moisae14.jpg')}}>
+<div class="droite"> 
+<h4> Je suis nananan nanan nomkzndzk et ndaodhzadn bdagdzbain </h4>
+<br> 
+<h4> Je suis nananan nanan nomkzndzk et ndaodhzadn bdagdzbain </h4>
+
+</div>
+
+<div class="clear"> </div>
+<br> 
 
 
+<p class="prenom"> <u> Prénom :</u>  Quentin </p>
+
+<p class="nom"> <u>Nom :</u>  Poulard </p>
+
+<p class="age"> <u>Née le :</u>  16/12/2004 </p>
+<br><br><br>
+
+<p class="numero"> <u>Numéro de téléphone :</u>  07.82.71.44.52 </p>
+
+<p class="mail"> <u>Adresse mail :</u>  quentin01.poulard@gmail.com </p>
+
+
+
+
+<br> <br> <br>
 <div class="d-grid gap-2">
   <button class="btn btn-lg btn-primary" type="button">
        <a class="nav-link" href="/loisir">En savoir plus </a>
 </button>  
 </div>
 
-  
-        
+ <footer>
+      <p>©Copyright 2050 par personne. Tous droits reversés.</p>
+    </footer>
 
-</div>
+
+
 {% endblock %}
