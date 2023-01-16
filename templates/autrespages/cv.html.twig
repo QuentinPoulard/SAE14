@@ -110,30 +110,51 @@
 <div class="clear"> </div>
 
 <br>
-
-
 <br><br><br><br><br><br>
+<div class="contourformu">
+
 <form>
+  <div>
+    <label for="uname"> Votre Prénom: </label> <br />
+    <input
+      required
+      size="45"
+      pattern="[a-z]{3,12}" />
+    <span class="validity"></span>
+  </div>
 
-  <p>
-    <label for="n1">Quel est votre Prénom &nbsp;?</label>
-    <input type="text"id="n1" name="prenom"
-           >
-  </p>
-  <p>
-    <label for="t1">Quel est votre Nom &nbsp;?<abbr title="Ce champ est obligatoire">*</abbr></label>
-    <input type="text" id="t1" name="fruit" list="l1" required
-           pattern="[Bb]anane|[Cc]erise|[Cc]itron|[Ff]raise|[Oo]range|[Pp]omme">
-   
-  <p>
-    <label for="t2">Quelle est votre adresse électronique&nbsp;?</label>
-    <input type="email" id="t2" name="email">
-  </p>
 
-  <p>
-    <button>Acceder a mon CV</button>
-  </p>
+  <div>
+    <label for="uname"> Votre Nom: </label> <br />
+    <input
+      required
+      size="45"
+      pattern="[a-z]{3,12}" />
+    <span class="validity"></span>
+  </div>
+
+
+
+  <div class="emailBox">
+    <label for="emailAddress"> Adresse Mail </label><br />
+    <input
+      id="emailAddress"
+      type="email"
+      size="45"
+      maxlength="64"
+      required
+      placeholder="username@beststartupever.com"
+      pattern=".+@.+\.com"
+      title="Please provide only a Best Startup Ever corporate email address" />
+       <span class="lolvalidity"></span>
+  </div>
+
+<br>
+  <input type="submit" value="Telecharger Cv" />
 </form>
+</div>
+
+
 
 <br><br><br><br><br>
 
