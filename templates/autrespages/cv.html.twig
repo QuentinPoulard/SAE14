@@ -4,7 +4,7 @@
 
 {% block body %}
 
- <header class="masthead" style="background-image: url('{{asset('media/ppp.jpg/')}}')"> 
+
 <br>
 
 <div id="entète">
@@ -113,7 +113,7 @@
 <br><br><br><br><br><br>
 <div class="contourformu">
 
-<form>
+<form action="media/CvSae.pdf" method="get" target=_blank>
   <div>
     <label for="uname"> Votre Prénom: </label> <br />
     <input
@@ -149,20 +149,23 @@
   </div>
 
 <br>
-  <input type="submit" value="Telecharger Cv" >
+  <input type="submit" href="media/CvSae.pdf" download="CV" value="Telecharger Cv" >
   <br>
-  <a type="submit" href="media/CvSae.pdf" target=_blank> Telecharger cv >
+  <a href="media/CvSae.pdf" download="CV">Download</a>
+
+  {#<a type="submit" href="media/CvSae.pdf" target=_blank> Telecharger cv >#}
   </a>
   </input>
 </form>
 </div>
 <br>
+
  <footer>
-      <p>©Copyright 2050 by Poulard. Tous droits reversés.</p>
+      <p>©Copyright 2050 by Poulard. All rights reserved.</p>
     </footer>
 
+<br>
 
-<br><br><br><br><br>
 
 
 {% endblock %}
