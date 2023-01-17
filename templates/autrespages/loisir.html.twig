@@ -4,13 +4,17 @@
 
 {% block body %}
 
-<header class="masthead" style="background-image: url('{{asset('media/ppp.jpg/')}}')"> </header>
+<header class="masthead" style="background-image: url('{{asset('media/ppp.jpg/')}}')">
+<br>
 
-<br> 
-
-<h3 class="Titre"> Mes loisirs | Mes passions </h3>
-
-<br> 
+<div id="fond"> 
+      <div class="ruban">     
+        <h2> Mes loisirs | Passion </h2>     
+      </div>     
+      <div class="ruban_gauche"></div>
+      <div class="ruban_droit"></div>
+</div>
+<br>
 
 
 <div class="amicentre">
@@ -22,7 +26,13 @@
 <div class="rlcentre">
 <img class="rl"  ; src={{asset('media/amigos.png.JPG')}}>
 </div>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="textloisir">
+
+
+<br> 
+<p> J'ai de nombreux passe temps et de nombreuse passion. Les principals sont d'abord ma famille ainsi que ma famille . Ils me permettent 
+<p> J'aime aussi tout se qui touche a l'informatique et au nouvelle technologie . Par exemple en ce moment je passe du temps avec mon père a m'informer sur le web 3.0 et la blockchain ainsi que la crypto monnai qui seront pour moi encore plus présents dans le futur </p>
 
 <div class="d-grid gap-2">
   <button class="btn btn-lg btn-primary" type="button">
@@ -30,6 +40,11 @@
 </button>  
 </div>
 
+</div>
 
+ <footer>
+      <p>©Copyright 2050 by Poulard. Tous droits reversés.</p>
+    </footer>
+<br><br><br><br><br>
 
 {% endblock %}
