@@ -3,6 +3,62 @@
     color: #000;
 }
 
+
+
+/* ------------------------------------------------------------------------------------*/
+/* Bouton animation en Savoir plus */
+
+*,*::before,*::after{box-sizing: border-box;}
+
+button{
+
+text-align: center;
+cursor:pointer;
+border-radius:4px;
+text-transform: uppercase;
+font-size: 1.25rem;
+padding: 10px 20px;
+margin:1rem;
+margin-left: 30%;
+margin-bottom: 3%;	
+width: 40%;
+	}
+
+
+.neon-box-1{
+
+background:linear-gradient(to right, rgb(248, 248, 248) 0%,50%,rgb(120, 12, 178) 100%);
+
+}
+
+.neon-box-1:hover{
+
+animation: neon-box-1 2s infinite alternate linear 
+
+}	
+	
+@keyframes neon-box-1{
+	
+from{
+	
+	box-shadow:2px 0 6px rgba(255, 0, 255, 0.7),-2px 0 6px rgba(209, 67, 228, 0.7),5px 0 10px rgba(164, 16, 223, 0.7),-5px 0 10px rgba(0, 255, 255, 0.7)
+		
+	
+	}
+	
+to{
+
+	
+box-shadow:10px 0 20px rgba(255, 0, 255, 0.7),-10px 0 20px rgba(0, 255, 255, 0.7),15px 0 30px rgba(255, 0, 255, 0.7),-15px 0 30px rgba(0, 255, 255, 0.7)
+	}
+	
+	}		
+	
+/* ------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------*/
+
+/* Pieds de pages */
+
 footer {
   text-align: center;
   bottom: 0;
@@ -11,13 +67,17 @@ footer {
   color: #ccc;
   justify-content: center;
   width: 100%;
+  height: 3.5vh;
 }
 
+/* ------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------*/
 
 .textloisir {
   margin-top: 25%;
 }
 
+/* Titre en haut des pages en Forme rubans */
 
 #fond {
   position: relative;
@@ -27,7 +87,8 @@ footer {
   border-radius: 5px;
   box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
   z-index: 10;
-  height:110px;
+  height:90px;
+  
   }
   
   .ruban {
@@ -40,6 +101,9 @@ footer {
   float: left;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
   z-index: 100;
+ 
+  
+ 
   }
   
   .ruban h2 {
@@ -74,6 +138,9 @@ footer {
   z-index: -1;
   }
 
+/* --------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------*/
+
 .bandmarg {
   margin-top: 30%;
 }
@@ -84,6 +151,8 @@ footer {
   position: relative;
 }
 
+
+/* Formulaire pour télécharger le CV */
 
 input {
   width: 70%;
@@ -116,7 +185,8 @@ input:valid + span::after {
   padding: 10px;
 }
 
-
+/*-------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------*/
 
 
 .progc {
@@ -200,23 +270,11 @@ input:valid + span::after {
 }
 
 .prenom {
-  margin-left: 25%;
-  position: absolute;
+  text-align: center;
+  
   font-size: 1.3em;
 }
 
-.nom {
-  left: 43%;
-  position: absolute;
-  font-size: 1.3em;
-}
-
-.age {
-  left: 60%;
-  position: absolute;
-  font-size: 1.3em;
-
-}
 
 
 .foot {
@@ -230,24 +288,16 @@ input:valid + span::after {
 }
 
 .nume {
-  float: left; 
-  margin-left: 25%;
+  text-align: center;
   font-size: 1.3em;
 }
-
-.maill {
-  margin-left: 60%;
-  position: absolute;
-  display: flex;
-  font-size: 1.3em;
-}
-
-
-
-
 
 .rl {
   width: 100%;
+}
+
+.texttloisir {
+  margin-top: 2%;
 }
 
 .rlcentre{
@@ -262,6 +312,7 @@ input:valid + span::after {
 }
 .footcentre {
   text-align: center;
+  margin-top: 2.2%;
 }
 
 .amicentre {
@@ -269,6 +320,7 @@ input:valid + span::after {
   float: left;
 }
 .amigos {
+  margin-top: 1%;
   width: 33%;
   border: 5px solid;
   border-image: linear-gradient(#C6FFDD, #FBD786, #f7797d) 10;
@@ -278,9 +330,7 @@ input:valid + span::after {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .navvv{
-    position: fixed;
     width: 100%;
-    height: 5%;
 }
 
 .masthead {
@@ -289,9 +339,7 @@ input:valid + span::after {
   
 }
 
-.caca {
-    text-align: center ;
-}
+
 .clear {
     clear: both;
 }
@@ -310,10 +358,11 @@ img.left {
     margin-top: 6%;
     margin-left: 48% ;
     margin-right: 20% ;
+    position: absolute;
 }
 #entète {
     width: 100%;
-    margin-top: 4%;
+    margin-top: 1%;
     text-align:center;
     color: rgb(247, 243, 243);
    
@@ -340,7 +389,7 @@ img.left {
 
 }
 .contcomp{
-   
+    text-align: center;
     width: 100%;   
   
    
@@ -349,9 +398,6 @@ img.left {
 .bac {
     
     font-weight: bold;
-}
-.bacc {
- 
 }
 
 .entretien {
@@ -381,24 +427,10 @@ img.left {
     text-align: center;
 }
 
-.compétenceinfo {
-    font-size: 1.2em;
-    margin-left: 40%;
-}
-.compinfo {
-    
-    float: left;
-}
-.ubun {
-  position: absolute;
-    left: 60%;
-}
-.bienveillant {
-    float: left;
-    margin-left: 8%;
-}
 
 
+
+/* Les 3 carte pour le portfolio */
 
 * {
   margin: 0;
@@ -432,17 +464,49 @@ body .container .card {
 
 body .container .card:nth-child(1) .box .content a {
   background: #2196f3;
+  text-shadow:#000000 0 -1px 0,
+  #000000 1px 1px 0,
+  #010001 2px 2px 0,
+  rgb(255, 255, 255) 5px 5px 10px;color:#fdfdfd;
+
+ 
 }
 
 body .container .card:nth-child(2) .box .content a {
-  background: #e91e63;
+  background: #2196f3;
+  text-shadow:#000000 0 -1px 0,
+  #000000 1px 1px 0,
+  #010001 2px 2px 0,
+  rgb(255, 255, 255) 5px 5px 10px;color:#fdfdfd;
+  
+ 
 }
 
 body .container .card:nth-child(3) .box .content a {
-  background: #23c186;
+  background: #2196f3;
+  text-shadow:#000000 0 -1px 0,
+  #000000 1px 1px 0,
+  #010001 2px 2px 0,
+  rgb(255, 255, 255) 5px 5px 10px;color:#fdfdfd;
+
+ 
 }
 body .container .card:nth-child(4) .box .content a {
-  background: #eba119;
+  background: #c6f321;
+  text-shadow:#000000 0 -1px 0,
+  #000000 1px 1px 0,
+  #010001 2px 2px 0,
+  rgb(255, 255, 255) 5px 5px 10px;color:#fdfdfd;
+ 
+ 
+}
+body .container .card:nth-child(5) .box .content a {
+  background: #c6f321;
+  text-shadow:#000000 0 -1px 0,
+  #000000 1px 1px 0,
+  #010001 2px 2px 0,
+  rgb(255, 255, 255) 5px 5px 10px;color:#fdfdfd;
+ 
 }
 
 body .container .card .box {
@@ -516,9 +580,19 @@ body .container .card .box .content a {
   transition: 0.5s;
 }
 body .container .card .box .content a:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
-  background: rgb(52, 43, 43);
+  box-shadow: 0 10px 20px rgba(222, 29, 29, 0.6);
+  background: rgba(176, 174, 185, 0.878);
   color: #000;
 }
-
-
+.popo{
+  text-shadow:#28a3ef 0 -1px 0,
+  #000000 1px 1px 0,
+  #c723ec 2px 2px 0,
+  rgb(255, 255, 255) 5px 5px 10px;color:#FFE200;
+ 
+text-align: center;
+color: rgb(0, 0, 0);
+font-size: 3em;
+ text-decoration: underline overline solid #050103;
+position: relative;
+}
