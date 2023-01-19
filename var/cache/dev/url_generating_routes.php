@@ -21,6 +21,8 @@ return [
     'mes_loisirs' => [[], ['_controller' => 'App\\Controller\\MonController::loiisir'], [], [['text', '/loisir']], [], [], []],
     'mon_portfolio' => [[], ['_controller' => 'App\\Controller\\MonController::portfolio'], [], [['text', '/portfolio']], [], [], []],
     'mon_progC' => [[], ['_controller' => 'App\\Controller\\MonController::programmeC'], [], [['text', '/programmeC']], [], [], []],
+    'mon_switch' => [[], ['_controller' => 'App\\Controller\\MonController::swt'], [], [['text', '/configueswt']], [], [], []],
+    'mon_ubuntu' => [[], ['_controller' => 'App\\Controller\\MonController::ubuntu'], [], [['text', '/ubuntu']], [], [], []],
     'index_english' => [[], ['_controller' => 'App\\Controller\\MonController::indexenglish'], [], [['text', '/indexenglish']], [], [], []],
     'portfolio_english' => [[], ['_controller' => 'App\\Controller\\MonController::portfolioenglish'], [], [['text', '/portfolioenglish']], [], [], []],
     'cv_english' => [[], ['_controller' => 'App\\Controller\\MonController::cvenglish'], [], [['text', '/cvenglish']], [], [], []],

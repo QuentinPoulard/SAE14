@@ -78,9 +78,9 @@ class __TwigTemplate_da42c19d2bdc018df77ca85516006aa5 extends Template
 <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
   <div class=\"container-fluid\">
     <a class=\"navbar-brand\" href=\"/indexenglish\"> Presentation </a>
-    <a class=\"navbar-brand\" href=\"/cvenglish\"> Curriculom Vitae </a>
-    <a class=\"navbar-brand\" href=\"/portfolioenglish\"> Mon portfolio </a>
-    <a class=\"navbar-brand\" href=\"/loisirenglish\"> Mes loisirs </a>
+    <a class=\"navbar-brand\" href=\"/cvenglish\"> curriculum vitae </a>
+    <a class=\"navbar-brand\" href=\"/portfolioenglish\"> My portfolio </a>
+    <a class=\"navbar-brand\" href=\"/loisirenglish\"> My hobbies </a>
     <a class=\"navbar-brand\" href=\"/\"> French </a>
     <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
       <span class=\"navbar-toggler-icon\"></span>
@@ -210,9 +210,9 @@ class __TwigTemplate_da42c19d2bdc018df77ca85516006aa5 extends Template
 <nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">
   <div class=\"container-fluid\">
     <a class=\"navbar-brand\" href=\"/indexenglish\"> Presentation </a>
-    <a class=\"navbar-brand\" href=\"/cvenglish\"> Curriculom Vitae </a>
-    <a class=\"navbar-brand\" href=\"/portfolioenglish\"> Mon portfolio </a>
-    <a class=\"navbar-brand\" href=\"/loisirenglish\"> Mes loisirs </a>
+    <a class=\"navbar-brand\" href=\"/cvenglish\"> curriculum vitae </a>
+    <a class=\"navbar-brand\" href=\"/portfolioenglish\"> My portfolio </a>
+    <a class=\"navbar-brand\" href=\"/loisirenglish\"> My hobbies </a>
     <a class=\"navbar-brand\" href=\"/\"> French </a>
     <button class=\"navbar-toggler\" type=\"button\" data-bs-toggle=\"collapse\" data-bs-target=\"#navbarColor01\" aria-controls=\"navbarColor01\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">
       <span class=\"navbar-toggler-icon\"></span>

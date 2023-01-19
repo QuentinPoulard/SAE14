@@ -19,6 +19,8 @@ return [
         '/loisir' => [[['_route' => 'mes_loisirs', '_controller' => 'App\\Controller\\MonController::loiisir'], null, null, null, false, false, null]],
         '/portfolio' => [[['_route' => 'mon_portfolio', '_controller' => 'App\\Controller\\MonController::portfolio'], null, null, null, false, false, null]],
         '/programmeC' => [[['_route' => 'mon_progC', '_controller' => 'App\\Controller\\MonController::programmeC'], null, null, null, false, false, null]],
+        '/configueswt' => [[['_route' => 'mon_switch', '_controller' => 'App\\Controller\\MonController::swt'], null, null, null, false, false, null]],
+        '/ubuntu' => [[['_route' => 'mon_ubuntu', '_controller' => 'App\\Controller\\MonController::ubuntu'], null, null, null, false, false, null]],
         '/indexenglish' => [[['_route' => 'index_english', '_controller' => 'App\\Controller\\MonController::indexenglish'], null, null, null, false, false, null]],
         '/portfolioenglish' => [[['_route' => 'portfolio_english', '_controller' => 'App\\Controller\\MonController::portfolioenglish'], null, null, null, false, false, null]],
         '/cvenglish' => [[['_route' => 'cv_english', '_controller' => 'App\\Controller\\MonController::cvenglish'], null, null, null, false, false, null]],

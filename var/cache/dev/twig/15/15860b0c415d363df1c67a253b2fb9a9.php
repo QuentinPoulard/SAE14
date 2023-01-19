@@ -91,7 +91,7 @@ class __TwigTemplate_3dbcd1cf728aa720ee5f27551ddf5842 extends Template
 
 <div id=\"fond\"> 
       <div class=\"ruban\">     
-        <h2> Pofolio</h2>     
+        <h2> Portfolio</h2>     
       </div>     
       <div class=\"ruban_gauche\"></div>
       <div class=\"ruban_droit\"></div>
@@ -103,9 +103,9 @@ class __TwigTemplate_3dbcd1cf728aa720ee5f27551ddf5842 extends Template
       <div class=\"content\">
         <h2>°</h2>
         <h3> Programmation</h3>
-        <p> J'ai des compétance dans différents language de programmation telle que le language C , C++ et python .
-         J'ai pus écrire des programmes pour des tris , des tableaux , des boucles et ecriture dans des fichier textes</p>
-       <a class=\"nav-link\" href=\"/programmeC\"> Voir des exemples que j'ai put réaliser </a>
+        <p> I have skills in different programming languages such as C, C++ and Python.
+         I could write programs for sorting, arrays, loops and writing in text files</p>
+       <a class=\"nav-link\" href=\"/programmeC\"> See some examples that I have done </a>
       
       </div>
     </div>
@@ -115,10 +115,10 @@ class __TwigTemplate_3dbcd1cf728aa720ee5f27551ddf5842 extends Template
     <div class=\"box\">
       <div class=\"content\">
         <h2>°</h2>
-        <h3> Reseau </h3>
-        <p> Je sais utiliser des logiciels telle que Cisco packet tracer et wireshark.
-        Je suis capable de crée une extension d'un réseau existent en configurant des switch Cisco , d'analyser des trames a l'aide de Wireshark</p>
-        <a href=\"#\"> Voir des topologie , config réaliser</a>
+        <h3> Network </h3>
+        <p> I know how to use software such as Cisco packet tracer and wireshark.
+        I am able to create an extension of an existing network by configuring Cisco switches, to analyze frames using Wireshark</p>
+        <a class=\"nav-link\" href=\"/configueswt\"> See topology, configure realize</a>
       </div>
     </div>
   </div>
@@ -127,9 +127,9 @@ class __TwigTemplate_3dbcd1cf728aa720ee5f27551ddf5842 extends Template
     <div class=\"box\">
       <div class=\"content\">
         <h2>°</h2>
-        <h3> Système d'Exploitation </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-        <a href=\"#\">Read More</a>
+        <h3> Operating System </h3>
+        <p> I know how to use the operating system of windows 10 and 11 as well as the one of linux Ubuntu that I could use during the creation of Virtual Machine and also in multiboot on my personal computer</p>
+        <a class=\"nav-link\" href=\"/ubuntu\"> Linux command that I can handle</a>
       </div>
     </div>
   </div>
@@ -137,10 +137,9 @@ class __TwigTemplate_3dbcd1cf728aa720ee5f27551ddf5842 extends Template
     <div class=\"box\">
       <div class=\"content\">
         <h2>°</h2>
-        <h3> Cablage | Signaux </h3>
-        <p> Je sais utiliser des logiciels telle que Cisco packet tracer et wireshark.
-        Je suis capable de crée une extension d'un réseau existent en configurant des switch Cisco , d'analyser des trames a l'aide de Wireshark</p>
-        <a href=\"#\"> Voir des topologie , config réaliser</a>
+        <h3> Cabling | Signals </h3>
+        <p> I know how to make wiring to measure voltage and current, I also know how to analyze and change signals using an oscilloscope. I also know the rules of security and law of electricity.</p>
+    
       </div>
     </div>
   </div>
@@ -149,16 +148,18 @@ class __TwigTemplate_3dbcd1cf728aa720ee5f27551ddf5842 extends Template
     <div class=\"box\">
       <div class=\"content\">
         <h2>°</h2>
-        <h3> Anglais </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-        <a href=\"#\">Read More</a>
+        <h3> English | Spanish </h3>
+        <p> B2 level in English and very good knowledge of Spanish</p>
+        
       </div>
     </div>
   </div>
 </div>
- <footer>
-      <p>©Copyright 2050 par Poulard. Tous droits reversés.</p>
+  <footer>
+      <p>©Copyright 2050 by Poulard Quentin. All rights reserved.</p>
     </footer>
+
+
 
 
 ";
@@ -198,7 +199,7 @@ class __TwigTemplate_3dbcd1cf728aa720ee5f27551ddf5842 extends Template
 
 <div id=\"fond\"> 
       <div class=\"ruban\">     
-        <h2> Pofolio</h2>     
+        <h2> Portfolio</h2>     
       </div>     
       <div class=\"ruban_gauche\"></div>
       <div class=\"ruban_droit\"></div>
@@ -210,9 +211,9 @@ class __TwigTemplate_3dbcd1cf728aa720ee5f27551ddf5842 extends Template
       <div class=\"content\">
         <h2>°</h2>
         <h3> Programmation</h3>
-        <p> J'ai des compétance dans différents language de programmation telle que le language C , C++ et python .
-         J'ai pus écrire des programmes pour des tris , des tableaux , des boucles et ecriture dans des fichier textes</p>
-       <a class=\"nav-link\" href=\"/programmeC\"> Voir des exemples que j'ai put réaliser </a>
+        <p> I have skills in different programming languages such as C, C++ and Python.
+         I could write programs for sorting, arrays, loops and writing in text files</p>
+       <a class=\"nav-link\" href=\"/programmeC\"> See some examples that I have done </a>
       
       </div>
     </div>
@@ -222,10 +223,10 @@ class __TwigTemplate_3dbcd1cf728aa720ee5f27551ddf5842 extends Template
     <div class=\"box\">
       <div class=\"content\">
         <h2>°</h2>
-        <h3> Reseau </h3>
-        <p> Je sais utiliser des logiciels telle que Cisco packet tracer et wireshark.
-        Je suis capable de crée une extension d'un réseau existent en configurant des switch Cisco , d'analyser des trames a l'aide de Wireshark</p>
-        <a href=\"#\"> Voir des topologie , config réaliser</a>
+        <h3> Network </h3>
+        <p> I know how to use software such as Cisco packet tracer and wireshark.
+        I am able to create an extension of an existing network by configuring Cisco switches, to analyze frames using Wireshark</p>
+        <a class=\"nav-link\" href=\"/configueswt\"> See topology, configure realize</a>
       </div>
     </div>
   </div>
@@ -234,9 +235,9 @@ class __TwigTemplate_3dbcd1cf728aa720ee5f27551ddf5842 extends Template
     <div class=\"box\">
       <div class=\"content\">
         <h2>°</h2>
-        <h3> Système d'Exploitation </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-        <a href=\"#\">Read More</a>
+        <h3> Operating System </h3>
+        <p> I know how to use the operating system of windows 10 and 11 as well as the one of linux Ubuntu that I could use during the creation of Virtual Machine and also in multiboot on my personal computer</p>
+        <a class=\"nav-link\" href=\"/ubuntu\"> Linux command that I can handle</a>
       </div>
     </div>
   </div>
@@ -244,10 +245,9 @@ class __TwigTemplate_3dbcd1cf728aa720ee5f27551ddf5842 extends Template
     <div class=\"box\">
       <div class=\"content\">
         <h2>°</h2>
-        <h3> Cablage | Signaux </h3>
-        <p> Je sais utiliser des logiciels telle que Cisco packet tracer et wireshark.
-        Je suis capable de crée une extension d'un réseau existent en configurant des switch Cisco , d'analyser des trames a l'aide de Wireshark</p>
-        <a href=\"#\"> Voir des topologie , config réaliser</a>
+        <h3> Cabling | Signals </h3>
+        <p> I know how to make wiring to measure voltage and current, I also know how to analyze and change signals using an oscilloscope. I also know the rules of security and law of electricity.</p>
+    
       </div>
     </div>
   </div>
@@ -256,16 +256,18 @@ class __TwigTemplate_3dbcd1cf728aa720ee5f27551ddf5842 extends Template
     <div class=\"box\">
       <div class=\"content\">
         <h2>°</h2>
-        <h3> Anglais </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-        <a href=\"#\">Read More</a>
+        <h3> English | Spanish </h3>
+        <p> B2 level in English and very good knowledge of Spanish</p>
+        
       </div>
     </div>
   </div>
 </div>
- <footer>
-      <p>©Copyright 2050 par Poulard. Tous droits reversés.</p>
+  <footer>
+      <p>©Copyright 2050 by Poulard Quentin. All rights reserved.</p>
     </footer>
+
+
 
 
 {% endblock %}", "pageanglais/portfolioanglais.html.twig", "C:\\Users\\quent\\Symfony\\SAE104\\sae14\\templates\\PageAnglais\\portfolioanglais.html.twig");

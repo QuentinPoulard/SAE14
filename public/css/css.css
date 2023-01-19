@@ -1,6 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
     color: #000;
+    
 }
 
 
@@ -97,7 +98,7 @@ footer {
   width: 380px;
   position: relative;
   left:-15px;
-  top: 30px;
+  top: 20px;
   float: left;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
   z-index: 100;
@@ -122,7 +123,7 @@ footer {
   width:0px;
   position: relative;
   left: -30px;
-  top: 65px;
+  top: 55px;
   z-index: -1;  /*s'affichera sous le rectangle  */
   }
   
@@ -134,7 +135,7 @@ footer {
   width:0px;
   position: relative;
   left: 350px;
-  top: 35px;
+  top: 25px;
   z-index: -1;
   }
 
@@ -188,6 +189,23 @@ input:valid + span::after {
 /*-------------------------------------------------------------------------------------------------------------*/
 /* ------------------------------------------------------------------------------------*/
 
+.switch {
+  text-align: center;
+  width: 30%;
+}
+
+.switchh {
+  position: absolute;
+  left: 50%;
+  width: 16.8%;
+
+  border: 2px solid;
+  border-image: linear-gradient(#C6FFDD, #FBD786, #f7797d) 10;
+  padding: 1px;
+}
+
+/*-----------------------------------------------------------------------*/
+/* Pour les pages justificative Portfolio */
 
 .progc {
   display: flex;
@@ -258,10 +276,7 @@ input:valid + span::after {
 
 
 
-.textprogc {
-  margin-left: 3%;
-  margin-top: 55%;
-}
+
 
 
 
@@ -277,15 +292,7 @@ input:valid + span::after {
 
 
 
-.foot {
-  position: absolute;
-  left: 33.5%;
-  border: 5px solid;
-  border-image: linear-gradient(#003973, #E5E5BE) 10;
-  padding: 3px;
-  width: 33%;
-  margin: auto;
-}
+
 
 .nume {
   text-align: center;
@@ -294,25 +301,43 @@ input:valid + span::after {
 
 .rl {
   width: 100%;
+  margin-top: 6%;
+  border-radius: 3ch;
+  margin-right: 0.2%;
 }
 
 .texttloisir {
   margin-top: 2%;
+  text-align: center;
 }
 
+/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+
+/* Image des loisir */
+
+.foot {
+  position: absolute;
+  left: 33.5%;
+
+  width: 33%;
+  margin: auto;
+  border-radius: 3ch;
+ 
+}
 .rlcentre{
 
   position: absolute;
   left: 67%;
-  border: 5px solid;
-  border-image: linear-gradient(#C6FFDD, #FBD786, #f7797d) 10;
-  padding: 3px;
+  margin-right: 0.2%;
   width: 33%;
   margin: auto;
+  height: 50%;
+  
 }
 .footcentre {
   text-align: center;
-  margin-top: 2.2%;
+  margin-top: 2%;
 }
 
 .amicentre {
@@ -320,15 +345,29 @@ input:valid + span::after {
   float: left;
 }
 .amigos {
-  margin-top: 1%;
+  margin-top: 2%;
   width: 33%;
-  border: 5px solid;
-  border-image: linear-gradient(#C6FFDD, #FBD786, #f7797d) 10;
-  padding: 3px;
+ margin-left: 0.2%;
+  border-radius: 3ch;
+
   position: absolute;
   cursor: pointer;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+.city{
+  text-align: center;
+  width: 50;
+}
+.cityy{
+  width: 40%;
+  border-radius: 3ch;
+}
+
+/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+
+
 .navvv{
     width: 100%;
 }
@@ -336,13 +375,25 @@ input:valid + span::after {
 .masthead {
     width: 100%;
     background-size: cover;
+    background-color: rgb(255, 255, 255);
   
+}
+
+.textprogc {
+  margin-left: 3%;
+  margin-top: 55%;
+  color: #020202;
 }
 
 
 .clear {
     clear: both;
 }
+
+/*-----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------*/
+
+/* Image et texte page présentation */
 img.left {
     margin-top: 2%;
     margin-left: 25% ;
@@ -353,11 +404,14 @@ img.left {
 
 
 .droite {
-    margin-top: 6%;
+    margin-top: 4%;
     margin-left: 48% ;
-    margin-right: 20% ;
+    margin-right: 12% ;
     position: relative;
 }
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+/* Text pour la page du Cv */ 
 #entète {
     width: 100%;
     margin-top: 1%;
@@ -425,7 +479,8 @@ img.left {
     text-align: center;
 }
 
-
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
 
 
 /* Les 3 carte pour le portfolio */

@@ -33,7 +33,7 @@ class __TwigTemplate_911ca7b5d74820eb883e8edac4fbe934 extends Template
     protected function doGetParent(array $context)
     {
         // line 1
-        return "baseportfolio.html.twig";
+        return "base2.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = [])
@@ -45,7 +45,7 @@ class __TwigTemplate_911ca7b5d74820eb883e8edac4fbe934 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "pageportfolio/programmationC.html.twig"));
 
-        $this->parent = $this->loadTemplate("baseportfolio.html.twig", "pageportfolio/programmationC.html.twig", 1);
+        $this->parent = $this->loadTemplate("base2.html.twig", "pageportfolio/programmationC.html.twig", 1);
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
@@ -85,9 +85,7 @@ class __TwigTemplate_911ca7b5d74820eb883e8edac4fbe934 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
 
         // line 5
-        echo " <header class=\"masthead\" style=\"background-image: url('";
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/fondindex.jpg/"), "html", null, true);
-        echo "')\"> 
+        echo " <header class=\"masthead\"> 
 
 
 <br>
@@ -137,55 +135,18 @@ class __TwigTemplate_911ca7b5d74820eb883e8edac4fbe934 extends Template
             </div>
 
             <br> 
-            <p class=\"textprogc\"> Voici ci-dessus une partie d'un programme que j'ai du réaliser pour un projet qui consistai a trié des nombres aléatoires en fonctions de la demande de l'utilisateur . </p>
+            <p class=\"textprogc\"> Voici ci-dessus une partie d'un programme que j'ai du réaliser pour un projet qui consistai a trié des nombres aléatoires en fonctions de la demande de l'utilisateur .
+            <br> J'ai également écrit se programme en python </p>
     </div>
 
 
 <br>
-<div id=\"fond\"> 
-      <div class=\"ruban\">     
-        <h2> Python </h2>     
-      </div>     
-      <div class=\"ruban_gauche\"></div>
-      <div class=\"ruban_droit\"></div>
-</div>
-
-<br><br>
-
-    <div class=\"zzzzz\">
-            <div class=\"progc\">
-            <img class=\"proggc\"  ; src=";
-        // line 60
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/projetC.png"), "html", null, true);
-        echo ">
-            </div>
-            <div class=\"progpy\">
-            <img class=\"progpyy\"  ; src=";
-        // line 63
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/programmeC2.png"), "html", null, true);
-        echo ">
-            </div>
-
-            <div class=\"progc2\">
-            <img class=\"proggc2\"  ; src=";
-        // line 67
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/projetC.png"), "html", null, true);
-        echo ">
-            </div>
-            <div class=\"progpy2\">
-            
-            <img class=\"progpyy2\"  ; src=";
-        // line 71
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/programmeC2.png"), "html", null, true);
-        echo ">
-            </div>
-
-            <br> 
-            <p class=\"textprogc\"> Voici ci-dessus une partie d'un programme que j'ai du réaliser pour un projet qui consistai a trié des nombres aléatoires en fonctions de la demande de l'utilisateur . </p>
-    </div>
 
 
 
+  <footer>
+      <p>©Copyright 2050 by Poulard Quentin. All rights reserved.</p>
+    </footer>
 
 
 
@@ -210,16 +171,16 @@ class __TwigTemplate_911ca7b5d74820eb883e8edac4fbe934 extends Template
 
     public function getDebugInfo()
     {
-        return array (  179 => 71,  172 => 67,  165 => 63,  159 => 60,  135 => 39,  128 => 35,  121 => 31,  115 => 28,  88 => 5,  78 => 4,  59 => 2,  36 => 1,);
+        return array (  133 => 39,  126 => 35,  119 => 31,  113 => 28,  88 => 5,  78 => 4,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("{% extends 'baseportfolio.html.twig' %}
+        return new Source("{% extends 'base2.html.twig' %}
 {% block title %} Programmation !{% endblock %}
 
 {% block body %}
- <header class=\"masthead\" style=\"background-image: url('{{asset('media/fondindex.jpg/')}}')\"> 
+ <header class=\"masthead\"> 
 
 
 <br>
@@ -257,43 +218,18 @@ class __TwigTemplate_911ca7b5d74820eb883e8edac4fbe934 extends Template
             </div>
 
             <br> 
-            <p class=\"textprogc\"> Voici ci-dessus une partie d'un programme que j'ai du réaliser pour un projet qui consistai a trié des nombres aléatoires en fonctions de la demande de l'utilisateur . </p>
+            <p class=\"textprogc\"> Voici ci-dessus une partie d'un programme que j'ai du réaliser pour un projet qui consistai a trié des nombres aléatoires en fonctions de la demande de l'utilisateur .
+            <br> J'ai également écrit se programme en python </p>
     </div>
 
 
 <br>
-<div id=\"fond\"> 
-      <div class=\"ruban\">     
-        <h2> Python </h2>     
-      </div>     
-      <div class=\"ruban_gauche\"></div>
-      <div class=\"ruban_droit\"></div>
-</div>
-
-<br><br>
-
-    <div class=\"zzzzz\">
-            <div class=\"progc\">
-            <img class=\"proggc\"  ; src={{asset('media/projetC.png')}}>
-            </div>
-            <div class=\"progpy\">
-            <img class=\"progpyy\"  ; src={{asset('media/programmeC2.png')}}>
-            </div>
-
-            <div class=\"progc2\">
-            <img class=\"proggc2\"  ; src={{asset('media/projetC.png')}}>
-            </div>
-            <div class=\"progpy2\">
-            
-            <img class=\"progpyy2\"  ; src={{asset('media/programmeC2.png')}}>
-            </div>
-
-            <br> 
-            <p class=\"textprogc\"> Voici ci-dessus une partie d'un programme que j'ai du réaliser pour un projet qui consistai a trié des nombres aléatoires en fonctions de la demande de l'utilisateur . </p>
-    </div>
 
 
 
+  <footer>
+      <p>©Copyright 2050 by Poulard Quentin. All rights reserved.</p>
+    </footer>
 
 
 

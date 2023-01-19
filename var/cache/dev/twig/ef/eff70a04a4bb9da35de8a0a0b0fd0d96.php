@@ -104,12 +104,12 @@ class __TwigTemplate_15d5347eb066166f3737aa939f7f4949 extends Template
 
 <img class=\"left\" ; src=";
         // line 23
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/moisae14.jpg"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/moiindex.png"), "html", null, true);
         echo ">
 <div class=\"droite\"> 
-<h4> sssss </h4>
+<h4> Currently a student in Networks & Telecommunications, I have many skills that I am ready to use </h4>
 <br> 
-<h4> Je suis nananan nanan nomkzndzk et ndaodhzadn bdagdzbain </h4>
+<h4> I am a reserved person, with a good team spirit and a desire to succeed </h4>
 
 </div>
 
@@ -133,13 +133,12 @@ class __TwigTemplate_15d5347eb066166f3737aa939f7f4949 extends Template
 
 
 <button class=\"neon-box-1\"> 
-  <a class=\"nav-link\" href=\"/loisir\"> Read More </a>
+  <a class=\"nav-link\" href=\"/loisirenglish\"> Read More </a>
 </button>
 
- <footer>
-      <p>©Copyright 2050 by Poulard. All rights reserved.</p>
+  <footer>
+      <p>©Copyright 2050 by Poulard Quentin. All rights reserved.</p>
     </footer>
-
 
 
 ";
@@ -190,11 +189,11 @@ class __TwigTemplate_15d5347eb066166f3737aa939f7f4949 extends Template
 
 
 
-<img class=\"left\" ; src={{asset('media/moisae14.jpg')}}>
+<img class=\"left\" ; src={{asset('media/moiindex.png')}}>
 <div class=\"droite\"> 
-<h4> sssss </h4>
+<h4> Currently a student in Networks & Telecommunications, I have many skills that I am ready to use </h4>
 <br> 
-<h4> Je suis nananan nanan nomkzndzk et ndaodhzadn bdagdzbain </h4>
+<h4> I am a reserved person, with a good team spirit and a desire to succeed </h4>
 
 </div>
 
@@ -218,13 +217,12 @@ class __TwigTemplate_15d5347eb066166f3737aa939f7f4949 extends Template
 
 
 <button class=\"neon-box-1\"> 
-  <a class=\"nav-link\" href=\"/loisir\"> Read More </a>
+  <a class=\"nav-link\" href=\"/loisirenglish\"> Read More </a>
 </button>
 
- <footer>
-      <p>©Copyright 2050 by Poulard. All rights reserved.</p>
+  <footer>
+      <p>©Copyright 2050 by Poulard Quentin. All rights reserved.</p>
     </footer>
-
 
 
 {% endblock %}

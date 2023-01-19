@@ -107,9 +107,9 @@ class __TwigTemplate_eb6279256d702ce28fecc2012e341c67 extends Template
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/moiindex.png"), "html", null, true);
         echo ">
 <div class=\"droite\"> 
-<h4> sssss </h4>
+<h4> Actuellement Etudiants en Réseaux & Télecommunication, j'ai de nombreuse compétence que je suis prêt a mettre a profit </h4>
 <br> 
-<h4> Je suis nananan nanan nomkzndzk et ndaodhzadn bdagdzbain </h4>
+<h4> Je suis une personne réserver, avec un bon esprit d'équipe et une envie de réussir </h4>
 
 </div>
 
@@ -192,9 +192,9 @@ class __TwigTemplate_eb6279256d702ce28fecc2012e341c67 extends Template
 
 <img class=\"left\" ; src={{asset('media/moiindex.png')}}>
 <div class=\"droite\"> 
-<h4> sssss </h4>
+<h4> Actuellement Etudiants en Réseaux & Télecommunication, j'ai de nombreuse compétence que je suis prêt a mettre a profit </h4>
 <br> 
-<h4> Je suis nananan nanan nomkzndzk et ndaodhzadn bdagdzbain </h4>
+<h4> Je suis une personne réserver, avec un bon esprit d'équipe et une envie de réussir </h4>
 
 </div>
 

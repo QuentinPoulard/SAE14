@@ -90,7 +90,7 @@ class __TwigTemplate_00c7fe0c033d20b09a59c07a0936315c extends Template
 
 <div id=\"fond\"> 
       <div class=\"ruban\">     
-        <h2>Mes loisirs | Passion </h2>     
+        <h2>My hobbies | Passion </h2>     
       </div>     
       <div class=\"ruban_gauche\"></div>
       <div class=\"ruban_droit\"></div>
@@ -111,7 +111,7 @@ class __TwigTemplate_00c7fe0c033d20b09a59c07a0936315c extends Template
 <div class=\"rlcentre\">
 <img class=\"rl\"  ; src=";
         // line 24
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/amigos.png.JPG"), "html", null, true);
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/loisirrll.png"), "html", null, true);
         echo ">
 </div>
 
@@ -119,17 +119,35 @@ class __TwigTemplate_00c7fe0c033d20b09a59c07a0936315c extends Template
 
 
 <br> 
-<p class=\"texttloisir\"> J'ai de nombreux passe temps et de nombreuse passion. Les principals sont d'abord ma famille ainsi que ma famille . Ils me permettent 
-<br> J'aime aussi tout se qui touche a l'informatique et au nouvelle technologie . Par exemple en ce moment je passe du temps avec mon père a m'informer sur le web 3.0 et la blockchain ainsi que la crypto monnai qui seront pour moi encore plus présents dans le futur
+<p class=\"texttloisir\"> I have many hobbies and many passions. The main ones are first of all my family as well as my friends because they are the ones who are always present.<br>
+<br> I also did a lot of club sports such as Judo, Football and Tenis. Today I prefer to do my side with bodybuilding and with general outings.
+<br><br> One of my great passion is also Video Games. I really like team games with communication like Raimbow Siw Siege and Rocket League
+<br> I also like everything related to computers and new technologies. For example at the moment I spend time with my father informing me about web 3.0 and blockchain as well as cryptocurrency which will be even more present for me in the future.
  </p>
 <br>
 
 </div>
 
- <footer>
-      <p>©Copyright 2050 by Poulard. Tous droits reversés.</p>
-    </footer>
+<div class=\"city\">
+<img class=\"cityy\"  ; src=";
+        // line 41
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/city.png"), "html", null, true);
+        echo ">
+</div>
 
+<p class=\"texttloisir\"> 
+I still have this passion for football and continue to bring it to life by playing matches with my friends and also by watching the matches of my favorite teams: Manchester City and OL.
+<br> Manchester City which is also a club which is interested in the virtual world with their project to recreate their stadium to recreate the Etihad Stadium in the metaverse.
+
+ </p>
+
+<button class=\"neon-box-1\"> 
+  <a class=\"nav-link\" href=\"/indexenglish\"> Back to homepage</a>
+</button>
+
+  <footer>
+      <p>©Copyright 2050 by Poulard Quentin. All rights reserved.</p>
+    </footer>
 
 ";
         
@@ -152,7 +170,7 @@ class __TwigTemplate_00c7fe0c033d20b09a59c07a0936315c extends Template
 
     public function getDebugInfo()
     {
-        return array (  114 => 24,  108 => 21,  102 => 18,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
+        return array (  134 => 41,  114 => 24,  108 => 21,  102 => 18,  88 => 6,  78 => 5,  59 => 3,  36 => 1,);
     }
 
     public function getSourceContext()
@@ -167,7 +185,7 @@ class __TwigTemplate_00c7fe0c033d20b09a59c07a0936315c extends Template
 
 <div id=\"fond\"> 
       <div class=\"ruban\">     
-        <h2>Mes loisirs | Passion </h2>     
+        <h2>My hobbies | Passion </h2>     
       </div>     
       <div class=\"ruban_gauche\"></div>
       <div class=\"ruban_droit\"></div>
@@ -180,24 +198,39 @@ class __TwigTemplate_00c7fe0c033d20b09a59c07a0936315c extends Template
 <img class=\"foot\"  ; src={{asset('media/u15.jpg')}}>
 </div>
 <div class=\"rlcentre\">
-<img class=\"rl\"  ; src={{asset('media/amigos.png.JPG')}}>
+<img class=\"rl\"  ; src={{asset('media/loisirrll.png')}}>
 </div>
 
 <div class=\"textloisir\">
 
 
 <br> 
-<p class=\"texttloisir\"> J'ai de nombreux passe temps et de nombreuse passion. Les principals sont d'abord ma famille ainsi que ma famille . Ils me permettent 
-<br> J'aime aussi tout se qui touche a l'informatique et au nouvelle technologie . Par exemple en ce moment je passe du temps avec mon père a m'informer sur le web 3.0 et la blockchain ainsi que la crypto monnai qui seront pour moi encore plus présents dans le futur
+<p class=\"texttloisir\"> I have many hobbies and many passions. The main ones are first of all my family as well as my friends because they are the ones who are always present.<br>
+<br> I also did a lot of club sports such as Judo, Football and Tenis. Today I prefer to do my side with bodybuilding and with general outings.
+<br><br> One of my great passion is also Video Games. I really like team games with communication like Raimbow Siw Siege and Rocket League
+<br> I also like everything related to computers and new technologies. For example at the moment I spend time with my father informing me about web 3.0 and blockchain as well as cryptocurrency which will be even more present for me in the future.
  </p>
 <br>
 
 </div>
 
- <footer>
-      <p>©Copyright 2050 by Poulard. Tous droits reversés.</p>
-    </footer>
+<div class=\"city\">
+<img class=\"cityy\"  ; src={{asset('media/city.png')}}>
+</div>
 
+<p class=\"texttloisir\"> 
+I still have this passion for football and continue to bring it to life by playing matches with my friends and also by watching the matches of my favorite teams: Manchester City and OL.
+<br> Manchester City which is also a club which is interested in the virtual world with their project to recreate their stadium to recreate the Etihad Stadium in the metaverse.
+
+ </p>
+
+<button class=\"neon-box-1\"> 
+  <a class=\"nav-link\" href=\"/indexenglish\"> Back to homepage</a>
+</button>
+
+  <footer>
+      <p>©Copyright 2050 by Poulard Quentin. All rights reserved.</p>
+    </footer>
 
 {% endblock %}", "pageanglais/loisiranglais.html.twig", "C:\\Users\\quent\\Symfony\\SAE104\\sae14\\templates\\PageAnglais\\loisiranglais.html.twig");
     }

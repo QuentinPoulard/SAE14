@@ -48,6 +48,24 @@ class MonController extends AbstractController
         ]);
     }
 
+      #[Route('/configueswt', name: 'mon_switch')]
+    public function swt(): Response
+    {
+        return $this->render('pageportfolio/configueswt.html.twig', [
+         
+        ]);
+    }
+
+    #[Route('/ubuntu', name: 'mon_ubuntu')]
+    public function ubuntu(): Response
+    {
+        return $this->render('pageportfolio/ubuntu.html.twig', [
+         
+        ]);
+    }
+
+    /* Route pour les pages en anglias */
+
     #[Route('/indexenglish', name: 'index_english')]
     public function indexenglish(): Response
     {

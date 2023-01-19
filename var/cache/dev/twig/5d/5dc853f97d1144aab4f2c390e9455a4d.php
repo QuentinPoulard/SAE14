@@ -118,7 +118,7 @@ class __TwigTemplate_af169e676d4aea2a25ba1920af8ef21d extends Template
         <h3> Reseau </h3>
         <p> Je sais utiliser des logiciels telle que Cisco packet tracer et wireshark.
         Je suis capable de crée une extension d'un réseau existent en configurant des switch Cisco , d'analyser des trames a l'aide de Wireshark</p>
-        <a href=\"#\"> Voir des topologie , config réaliser</a>
+        <a class=\"nav-link\" href=\"/configueswt\"> Voir des topologie , config réaliser</a>
       </div>
     </div>
   </div>
@@ -128,8 +128,8 @@ class __TwigTemplate_af169e676d4aea2a25ba1920af8ef21d extends Template
       <div class=\"content\">
         <h2>°</h2>
         <h3> Système d'Exploitation </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-        <a href=\"#\">Read More</a>
+        <p> Je sais utiliser les système d'exploitation de windows 10 et 11 ainsi que celui de linux Ubuntu que j'ai pus utiliser lors de la création de Machine Virtuel et aussi en multiboot sur mon ordinateur perso</p>
+        <a href=\"/ubuntu\"> Commande Linux que je sais manipuler</a>
       </div>
     </div>
   </div>
@@ -138,9 +138,8 @@ class __TwigTemplate_af169e676d4aea2a25ba1920af8ef21d extends Template
       <div class=\"content\">
         <h2>°</h2>
         <h3> Cablage | Signaux </h3>
-        <p> Je sais utiliser des logiciels telle que Cisco packet tracer et wireshark.
-        Je suis capable de crée une extension d'un réseau existent en configurant des switch Cisco , d'analyser des trames a l'aide de Wireshark</p>
-        <a href=\"#\"> Voir des topologie , config réaliser</a>
+        <p> Je sais effectuer des cablages pour mesurer tension et courant, je sais aussi analyser et changer des signaux a l'aide d'un oscilloscope . Je connais aussi les régles de securité et loie de l'électricité</p>
+    
       </div>
     </div>
   </div>
@@ -149,15 +148,15 @@ class __TwigTemplate_af169e676d4aea2a25ba1920af8ef21d extends Template
     <div class=\"box\">
       <div class=\"content\">
         <h2>°</h2>
-        <h3> Anglais </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-        <a href=\"#\">Read More</a>
+        <h3> Anglais | Espagnol </h3>
+        <p> Niveau B2 en anglais et d etrés bonne base en espagnol</p>
+        
       </div>
     </div>
   </div>
 </div>
  <footer>
-      <p>©Copyright 2050 par Poulard. Tous droits reversés.</p>
+      <p>©Copyright 2050 by Poulard Quentin. All rights reserved.</p>
     </footer>
 
 
@@ -225,7 +224,7 @@ class __TwigTemplate_af169e676d4aea2a25ba1920af8ef21d extends Template
         <h3> Reseau </h3>
         <p> Je sais utiliser des logiciels telle que Cisco packet tracer et wireshark.
         Je suis capable de crée une extension d'un réseau existent en configurant des switch Cisco , d'analyser des trames a l'aide de Wireshark</p>
-        <a href=\"#\"> Voir des topologie , config réaliser</a>
+        <a class=\"nav-link\" href=\"/configueswt\"> Voir des topologie , config réaliser</a>
       </div>
     </div>
   </div>
@@ -235,8 +234,8 @@ class __TwigTemplate_af169e676d4aea2a25ba1920af8ef21d extends Template
       <div class=\"content\">
         <h2>°</h2>
         <h3> Système d'Exploitation </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-        <a href=\"#\">Read More</a>
+        <p> Je sais utiliser les système d'exploitation de windows 10 et 11 ainsi que celui de linux Ubuntu que j'ai pus utiliser lors de la création de Machine Virtuel et aussi en multiboot sur mon ordinateur perso</p>
+        <a href=\"/ubuntu\"> Commande Linux que je sais manipuler</a>
       </div>
     </div>
   </div>
@@ -245,9 +244,8 @@ class __TwigTemplate_af169e676d4aea2a25ba1920af8ef21d extends Template
       <div class=\"content\">
         <h2>°</h2>
         <h3> Cablage | Signaux </h3>
-        <p> Je sais utiliser des logiciels telle que Cisco packet tracer et wireshark.
-        Je suis capable de crée une extension d'un réseau existent en configurant des switch Cisco , d'analyser des trames a l'aide de Wireshark</p>
-        <a href=\"#\"> Voir des topologie , config réaliser</a>
+        <p> Je sais effectuer des cablages pour mesurer tension et courant, je sais aussi analyser et changer des signaux a l'aide d'un oscilloscope . Je connais aussi les régles de securité et loie de l'électricité</p>
+    
       </div>
     </div>
   </div>
@@ -256,15 +254,15 @@ class __TwigTemplate_af169e676d4aea2a25ba1920af8ef21d extends Template
     <div class=\"box\">
       <div class=\"content\">
         <h2>°</h2>
-        <h3> Anglais </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam velit? Iure nemo labore inventore?</p>
-        <a href=\"#\">Read More</a>
+        <h3> Anglais | Espagnol </h3>
+        <p> Niveau B2 en anglais et d etrés bonne base en espagnol</p>
+        
       </div>
     </div>
   </div>
 </div>
  <footer>
-      <p>©Copyright 2050 par Poulard. Tous droits reversés.</p>
+      <p>©Copyright 2050 by Poulard Quentin. All rights reserved.</p>
     </footer>
 
 
