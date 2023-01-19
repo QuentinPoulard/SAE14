@@ -117,8 +117,8 @@ class __TwigTemplate_15d5347eb066166f3737aa939f7f4949 extends Template
 <br> 
 
 
-<p class=\"prenom\"> <u> Prénom :</u>  Quentin  &ensp; &ensp;  &ensp;  &ensp; &ensp;  &ensp;  &ensp;   
- <u>Nom :</u>  Poulard  &ensp; &ensp;  &ensp;  &ensp;  &ensp;  &ensp;  &ensp; 
+<p class=\"prenom\"> <u> First name :</u>  Quentin  &ensp; &ensp;  &ensp;  &ensp; &ensp;  &ensp;  &ensp;   
+ <u>Born on :</u>  Poulard  &ensp; &ensp;  &ensp;  &ensp;  &ensp;  &ensp;  &ensp; 
  <u>Née le :</u>  16/12/2004 
  </p>
 
@@ -126,18 +126,18 @@ class __TwigTemplate_15d5347eb066166f3737aa939f7f4949 extends Template
  
 
 <div class=\"nume\">
-<p class=\"numero\"> <u>Numéro de téléphone :</u>  07.82.71.44.52   &ensp;  &ensp;  &ensp; &ensp;  &ensp;  &ensp; 
-<u>Adresse mail :</u>  quentin01.poulard@gmail.com   </p>
+<p class=\"numero\"> <u>Phone number :</u>  07.82.71.44.52   &ensp;  &ensp;  &ensp; &ensp;  &ensp;  &ensp; 
+<u>Email address :</u>  quentin01.poulard@gmail.com   </p>
 </div>
 
 
 
 <button class=\"neon-box-1\"> 
-  <a class=\"nav-link\" href=\"/loisir\"> En savoir Plus </a>
+  <a class=\"nav-link\" href=\"/loisir\"> Read More </a>
 </button>
 
  <footer>
-      <p>©Copyright 2050 by Poulard. Tous droits reversés.</p>
+      <p>©Copyright 2050 by Poulard. All rights reserved.</p>
     </footer>
 
 
@@ -202,8 +202,8 @@ class __TwigTemplate_15d5347eb066166f3737aa939f7f4949 extends Template
 <br> 
 
 
-<p class=\"prenom\"> <u> Prénom :</u>  Quentin  &ensp; &ensp;  &ensp;  &ensp; &ensp;  &ensp;  &ensp;   
- <u>Nom :</u>  Poulard  &ensp; &ensp;  &ensp;  &ensp;  &ensp;  &ensp;  &ensp; 
+<p class=\"prenom\"> <u> First name :</u>  Quentin  &ensp; &ensp;  &ensp;  &ensp; &ensp;  &ensp;  &ensp;   
+ <u>Born on :</u>  Poulard  &ensp; &ensp;  &ensp;  &ensp;  &ensp;  &ensp;  &ensp; 
  <u>Née le :</u>  16/12/2004 
  </p>
 
@@ -211,18 +211,18 @@ class __TwigTemplate_15d5347eb066166f3737aa939f7f4949 extends Template
  
 
 <div class=\"nume\">
-<p class=\"numero\"> <u>Numéro de téléphone :</u>  07.82.71.44.52   &ensp;  &ensp;  &ensp; &ensp;  &ensp;  &ensp; 
-<u>Adresse mail :</u>  quentin01.poulard@gmail.com   </p>
+<p class=\"numero\"> <u>Phone number :</u>  07.82.71.44.52   &ensp;  &ensp;  &ensp; &ensp;  &ensp;  &ensp; 
+<u>Email address :</u>  quentin01.poulard@gmail.com   </p>
 </div>
 
 
 
 <button class=\"neon-box-1\"> 
-  <a class=\"nav-link\" href=\"/loisir\"> En savoir Plus </a>
+  <a class=\"nav-link\" href=\"/loisir\"> Read More </a>
 </button>
 
  <footer>
-      <p>©Copyright 2050 by Poulard. Tous droits reversés.</p>
+      <p>©Copyright 2050 by Poulard. All rights reserved.</p>
     </footer>
 
 
