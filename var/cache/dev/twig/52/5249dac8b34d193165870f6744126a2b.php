@@ -33,7 +33,7 @@ class __TwigTemplate_d420dca0971ae010335634edee9f57a8 extends Template
     protected function doGetParent(array $context)
     {
         // line 1
-        return "base2.html.twig";
+        return "base.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = [])
@@ -45,7 +45,7 @@ class __TwigTemplate_d420dca0971ae010335634edee9f57a8 extends Template
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
         $__internal_6f47bbe9983af81f1e7450e9a3e3768f->enter($__internal_6f47bbe9983af81f1e7450e9a3e3768f_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "pageportfolio/configueswt.html.twig"));
 
-        $this->parent = $this->loadTemplate("base2.html.twig", "pageportfolio/configueswt.html.twig", 1);
+        $this->parent = $this->loadTemplate("base.html.twig", "pageportfolio/configueswt.html.twig", 1);
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
         $__internal_5a27a8ba21ca79b61932376b2fa922d2->leave($__internal_5a27a8ba21ca79b61932376b2fa922d2_prof);
@@ -107,23 +107,27 @@ class __TwigTemplate_d420dca0971ae010335634edee9f57a8 extends Template
 <br>
 
     <div class=\"zzzzz\">
-            <div class=\"progc\">
-            <img class=\"proggc\"  ; src=";
-        // line 28
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/configueswtch.jpg"), "html", null, true);
-        echo ">
-            </div>
             <div class=\"switch\">
             <img class=\"switchh\"  ; src=";
-        // line 31
-        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/image2.png"), "html", null, true);
+        // line 28
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/trame.png"), "html", null, true);
+        echo ">
+        
+            </div>
+              <div class=\"progc\">
+            <img class=\"proggc\"  ; src=";
+        // line 32
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/image3.png"), "html", null, true);
         echo ">
             </div>
 
-            
+            <img src=";
+        // line 35
+        echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/trame.png"), "html", null, true);
+        echo ">
 
             <br> 
-            <p class=\"textprogc\"> Voici une partie de la configuration de mon switch que j'ai du réaliser lors de mon projet d'extension d'un réseau. </p>
+            <p class=\"textprogc\"> En cours : Configuartion switch </p>
     </div>
 
 
@@ -157,12 +161,12 @@ class __TwigTemplate_d420dca0971ae010335634edee9f57a8 extends Template
 
     public function getDebugInfo()
     {
-        return array (  119 => 31,  113 => 28,  88 => 5,  78 => 4,  59 => 2,  36 => 1,);
+        return array (  126 => 35,  120 => 32,  113 => 28,  88 => 5,  78 => 4,  59 => 2,  36 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Source("{% extends 'base2.html.twig' %}
+        return new Source("{% extends 'base.html.twig' %}
 {% block title %} Programmation !{% endblock %}
 
 {% block body %}
@@ -188,17 +192,18 @@ class __TwigTemplate_d420dca0971ae010335634edee9f57a8 extends Template
 <br>
 
     <div class=\"zzzzz\">
-            <div class=\"progc\">
-            <img class=\"proggc\"  ; src={{asset('media/configueswtch.jpg')}}>
-            </div>
             <div class=\"switch\">
-            <img class=\"switchh\"  ; src={{asset('media/image2.png')}}>
+            <img class=\"switchh\"  ; src={{asset('media/trame.png')}}>
+        
+            </div>
+              <div class=\"progc\">
+            <img class=\"proggc\"  ; src={{asset('media/image3.png')}}>
             </div>
 
-            
+            <img src={{asset('media/trame.png')}}>
 
             <br> 
-            <p class=\"textprogc\"> Voici une partie de la configuration de mon switch que j'ai du réaliser lors de mon projet d'extension d'un réseau. </p>
+            <p class=\"textprogc\"> En cours : Configuartion switch </p>
     </div>
 
 

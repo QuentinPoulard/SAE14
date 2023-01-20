@@ -136,8 +136,8 @@ class __TwigTemplate_eb6279256d702ce28fecc2012e341c67 extends Template
   <a class=\"nav-link\" href=\"/loisir\"> En savoir Plus </a>
 </button>
 
- <footer>
-      <p>©Copyright 2050 by Poulard. Tous droits reversés.</p>
+  <footer>
+      <p>©Copyright 2050 by Poulard Quentin. All rights reserved.</p>
     </footer>
 
 
@@ -221,8 +221,8 @@ class __TwigTemplate_eb6279256d702ce28fecc2012e341c67 extends Template
   <a class=\"nav-link\" href=\"/loisir\"> En savoir Plus </a>
 </button>
 
- <footer>
-      <p>©Copyright 2050 by Poulard. Tous droits reversés.</p>
+  <footer>
+      <p>©Copyright 2050 by Poulard Quentin. All rights reserved.</p>
     </footer>
 
 

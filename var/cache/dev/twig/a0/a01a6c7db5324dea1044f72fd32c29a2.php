@@ -97,19 +97,19 @@ class __TwigTemplate_0481af1545e1cc698dce0d28f6e7f438 extends Template
 </div>
 
 <div class=\"amicentre\">
-<img class=\"amigos\"  ; src=";
+    <img class=\"amigos\"  ; src=";
         // line 18
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/amigos.png.JPG"), "html", null, true);
         echo ">
 </div>
 <div class=\"footcentre\">
-<img class=\"foot\"  ; src=";
+    <img class=\"foot\"  ; src=";
         // line 21
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/u15.jpg"), "html", null, true);
         echo ">
 </div>
 <div class=\"rlcentre\">
-<img class=\"rl\"  ; src=";
+    <img class=\"rl\"  ; src=";
         // line 24
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/loisirrll.png"), "html", null, true);
         echo ">
@@ -120,26 +120,26 @@ class __TwigTemplate_0481af1545e1cc698dce0d28f6e7f438 extends Template
 
 <br> 
 <p class=\"texttloisir\"> J'ai de nombreux passe temps et de nombreuse passion. Les principals sont d'abord ma famille ainsi que mes amis car c'est eux qui sont toujours présents .<br> 
-<br> J'ai aussi fait beaucoup de sport en club comme du Judo , du Football et du Tenis . Aujourd'hui je préfere en faire de mon coter avec de la musculation et avec les sortie dehors général .
-<br><br> Une de mes grandes passion est aussi les Jeux Vidéo . J'aime beeacoup les jeux en équipes avec de la communication comme Raimbow Siw Siege et Rocket League 
-<br> J'aime aussi tout se qui touche a l'informatique et au nouvelle technologie . Par exemple en ce moment je passe du temps avec mon père a m'informer sur le web 3.0 et la blockchain ainsi que la crypto monnai qui seront pour moi encore plus présents dans le futur
- </p>
+    <br> J'ai aussi fait beaucoup de sport en club comme du Judo , du Football et du Tenis . Aujourd'hui je préfere en faire de mon coter avec de la musculation et avec les sortie dehors général .
+    <br><br> Une de mes grandes passion est aussi les Jeux Vidéo . J'aime beeacoup les jeux en équipes avec de la communication comme Raimbow Siw Siege et Rocket League 
+    <br> J'aime aussi tout se qui touche a l'informatique et au nouvelle technologie . Par exemple en ce moment je passe du temps avec mon père a m'informer sur le web 3.0 et la blockchain ainsi que la crypto monnai qui seront pour moi encore plus présents dans le futur
+</p>
 <br>
 
 </div>
 
 <div class=\"city\">
-<img class=\"cityy\"  ; src=";
+    <img class=\"cityy\"  ; src=";
         // line 41
         echo twig_escape_filter($this->env, $this->extensions['Symfony\Bridge\Twig\Extension\AssetExtension']->getAssetUrl("media/city.png"), "html", null, true);
         echo ">
 </div>
 
 <p class=\"texttloisir\"> 
- J'ai toujours cette passion du foot et continue a la faire vivre en faisant des match avec mes amis et aussi en regardant les matchs de mes equipes favorites :<br> Manchester City et OL . 
-<br> Manchester City qui est aussi un club qui s'interessent au monde virtuel avec leur projet de recrée leur stade recréer l’Etihad Stadium dans le métavers.
+  J'ai toujours cette passion du foot et continue a la faire vivre en faisant des match avec mes amis et aussi en regardant les matchs de mes equipes favorites :<br> Manchester City et OL . 
+  <br> Manchester City qui est aussi un club qui s'interessent au monde virtuel avec leur projet de recrée leur stade recréer l’Etihad Stadium dans le métavers.
 
- </p>
+</p>
 
 <button class=\"neon-box-1\"> 
   <a class=\"nav-link\" href=\"/\"> Revenir a la page d'acceuil </a>
@@ -192,13 +192,13 @@ class __TwigTemplate_0481af1545e1cc698dce0d28f6e7f438 extends Template
 </div>
 
 <div class=\"amicentre\">
-<img class=\"amigos\"  ; src={{asset('media/amigos.png.JPG')}}>
+    <img class=\"amigos\"  ; src={{asset('media/amigos.png.JPG')}}>
 </div>
 <div class=\"footcentre\">
-<img class=\"foot\"  ; src={{asset('media/u15.jpg')}}>
+    <img class=\"foot\"  ; src={{asset('media/u15.jpg')}}>
 </div>
 <div class=\"rlcentre\">
-<img class=\"rl\"  ; src={{asset('media/loisirrll.png')}}>
+    <img class=\"rl\"  ; src={{asset('media/loisirrll.png')}}>
 </div>
 
 <div class=\"textloisir\">
@@ -206,23 +206,23 @@ class __TwigTemplate_0481af1545e1cc698dce0d28f6e7f438 extends Template
 
 <br> 
 <p class=\"texttloisir\"> J'ai de nombreux passe temps et de nombreuse passion. Les principals sont d'abord ma famille ainsi que mes amis car c'est eux qui sont toujours présents .<br> 
-<br> J'ai aussi fait beaucoup de sport en club comme du Judo , du Football et du Tenis . Aujourd'hui je préfere en faire de mon coter avec de la musculation et avec les sortie dehors général .
-<br><br> Une de mes grandes passion est aussi les Jeux Vidéo . J'aime beeacoup les jeux en équipes avec de la communication comme Raimbow Siw Siege et Rocket League 
-<br> J'aime aussi tout se qui touche a l'informatique et au nouvelle technologie . Par exemple en ce moment je passe du temps avec mon père a m'informer sur le web 3.0 et la blockchain ainsi que la crypto monnai qui seront pour moi encore plus présents dans le futur
- </p>
+    <br> J'ai aussi fait beaucoup de sport en club comme du Judo , du Football et du Tenis . Aujourd'hui je préfere en faire de mon coter avec de la musculation et avec les sortie dehors général .
+    <br><br> Une de mes grandes passion est aussi les Jeux Vidéo . J'aime beeacoup les jeux en équipes avec de la communication comme Raimbow Siw Siege et Rocket League 
+    <br> J'aime aussi tout se qui touche a l'informatique et au nouvelle technologie . Par exemple en ce moment je passe du temps avec mon père a m'informer sur le web 3.0 et la blockchain ainsi que la crypto monnai qui seront pour moi encore plus présents dans le futur
+</p>
 <br>
 
 </div>
 
 <div class=\"city\">
-<img class=\"cityy\"  ; src={{asset('media/city.png')}}>
+    <img class=\"cityy\"  ; src={{asset('media/city.png')}}>
 </div>
 
 <p class=\"texttloisir\"> 
- J'ai toujours cette passion du foot et continue a la faire vivre en faisant des match avec mes amis et aussi en regardant les matchs de mes equipes favorites :<br> Manchester City et OL . 
-<br> Manchester City qui est aussi un club qui s'interessent au monde virtuel avec leur projet de recrée leur stade recréer l’Etihad Stadium dans le métavers.
+  J'ai toujours cette passion du foot et continue a la faire vivre en faisant des match avec mes amis et aussi en regardant les matchs de mes equipes favorites :<br> Manchester City et OL . 
+  <br> Manchester City qui est aussi un club qui s'interessent au monde virtuel avec leur projet de recrée leur stade recréer l’Etihad Stadium dans le métavers.
 
- </p>
+</p>
 
 <button class=\"neon-box-1\"> 
   <a class=\"nav-link\" href=\"/\"> Revenir a la page d'acceuil </a>

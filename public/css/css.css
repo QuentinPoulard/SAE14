@@ -191,13 +191,13 @@ input:valid + span::after {
 
 .switch {
   text-align: center;
-  width: 30%;
+  width: 100%;
 }
 
 .switchh {
   position: absolute;
   left: 50%;
-  width: 16.8%;
+  width: 50.8%;
 
   border: 2px solid;
   border-image: linear-gradient(#C6FFDD, #FBD786, #f7797d) 10;
